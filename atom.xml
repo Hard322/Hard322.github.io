@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-19T14:03:20.923Z</updated>
+  <updated>2017-02-19T14:06:16.912Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,20 +20,16 @@
     <link href="http://yoursite.com/2017/02/19/problems-17-2-19/"/>
     <id>http://yoursite.com/2017/02/19/problems-17-2-19/</id>
     <published>2017-02-19T12:15:19.000Z</published>
-    <updated>2017-02-19T14:03:20.923Z</updated>
+    <updated>2017-02-19T14:06:16.912Z</updated>
     
-    <content type="html"><![CDATA[<p>#17年2月第三周问题集#</p>
-<p>###问题索引<br>1.visibility:hidden 与 display:none的区别</p>
+    <content type="html"><![CDATA[<h1 id="17年2月第三周问题集"><a href="#17年2月第三周问题集" class="headerlink" title="17年2月第三周问题集"></a>17年2月第三周问题集</h1><h3 id="问题索引"><a href="#问题索引" class="headerlink" title="问题索引"></a>问题索引</h3><p>1.visibility:hidden 与 display:none的区别</p>
 <hr>
-<p>##1.visibility:hidden 与 display:none的区别<br>设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。</p>
+<h2 id="1-visibility-hidden-与-display-none的区别"><a href="#1-visibility-hidden-与-display-none的区别" class="headerlink" title="1.visibility:hidden 与 display:none的区别"></a>1.visibility:hidden 与 display:none的区别</h2><p>设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;#17年2月第三周问题集#&lt;/p&gt;
-&lt;p&gt;###问题索引&lt;br&gt;1.visibility:hidden 与 display:none的区别&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;##1.visibility:hidden 与 display:none的区别&lt;br&gt;设置display:no
+      &lt;h1 id=&quot;17年2月第三周问题集&quot;&gt;&lt;a href=&quot;#17年2月第三周问题集&quot; class=&quot;headerlink&quot; title=&quot;17年2月第三周问题集&quot;&gt;&lt;/a&gt;17年2月第三周问题集&lt;/h1&gt;&lt;h3 id=&quot;问题索引&quot;&gt;&lt;a href=&quot;#问题索引&quot; class=&quot;
     
     </summary>
     
