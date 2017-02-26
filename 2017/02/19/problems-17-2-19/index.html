@@ -5,22 +5,22 @@
   
   <title>problems-17-2-19 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别
+  <meta name="description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别2.outline何时为非矩形？3.label与input标签相互联系的两种方式4.用css画三角形、圆形5.calc函数6.ie6中margin为负值时不正常显示7.ie6双边距bug8.margin为负值的表现
 
-1.visibility:hidden 与 display:none的区别设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。">
+1.visibility:hidden 与 display:none的区别设置">
 <meta property="og:type" content="article">
 <meta property="og:title" content="problems-17-2-19">
 <meta property="og:url" content="http://yoursite.com/2017/02/19/problems-17-2-19/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别
+<meta property="og:description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别2.outline何时为非矩形？3.label与input标签相互联系的两种方式4.用css画三角形、圆形5.calc函数6.ie6中margin为负值时不正常显示7.ie6双边距bug8.margin为负值的表现
 
-1.visibility:hidden 与 display:none的区别设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。">
-<meta property="og:updated_time" content="2017-02-19T14:06:16.912Z">
+1.visibility:hidden 与 display:none的区别设置">
+<meta property="og:updated_time" content="2017-02-25T03:37:56.667Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="problems-17-2-19">
-<meta name="twitter:description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别
+<meta name="twitter:description" content="17年2月第三周问题集问题索引1.visibility:hidden 与 display:none的区别2.outline何时为非矩形？3.label与input标签相互联系的两种方式4.用css画三角形、圆形5.calc函数6.ie6中margin为负值时不正常显示7.ie6双边距bug8.margin为负值的表现
 
-1.visibility:hidden 与 display:none的区别设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。">
+1.visibility:hidden 与 display:none的区别设置">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -91,9 +91,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="17年2月第三周问题集"><a href="#17年2月第三周问题集" class="headerlink" title="17年2月第三周问题集"></a>17年2月第三周问题集</h1><h3 id="问题索引"><a href="#问题索引" class="headerlink" title="问题索引"></a>问题索引</h3><p>1.visibility:hidden 与 display:none的区别</p>
+        <h1 id="17年2月第三周问题集"><a href="#17年2月第三周问题集" class="headerlink" title="17年2月第三周问题集"></a>17年2月第三周问题集</h1><h3 id="问题索引"><a href="#问题索引" class="headerlink" title="问题索引"></a>问题索引</h3><p>1.visibility:hidden 与 display:none的区别<br>2.outline何时为非矩形？<br>3.label与input标签相互联系的两种方式<br>4.用css画三角形、圆形<br>5.calc函数<br>6.ie6中margin为负值时不正常显示<br>7.ie6双边距bug<br>8.margin为负值的表现</p>
 <hr>
 <h2 id="1-visibility-hidden-与-display-none的区别"><a href="#1-visibility-hidden-与-display-none的区别" class="headerlink" title="1.visibility:hidden 与 display:none的区别"></a>1.visibility:hidden 与 display:none的区别</h2><p>设置display:none的元素在页面上不占据任何空间，而设置了visibility:hidden的元素在页面上仍占据空间，只是视觉上不可见,效果类似于元素的透明度设置为0。</p>
+<hr>
+<h2 id="2-outline何时为非矩形？"><a href="#2-outline何时为非矩形？" class="headerlink" title="2.outline何时为非矩形？"></a>2.outline何时为非矩形？</h2><p><pre><code><br>    &lt;div style=”width:30px;”&gt;<br>        &lt;span style=”outline:1px solid black;”&gt;例如内容里的文字换行时就会形成不规则的outline&lt;/span&gt;<br>    &lt;/div&gt;<br></code></pre></p>
+<hr>
+<h2 id="3-label与input标签相互联系的两种方式"><a href="#3-label与input标签相互联系的两种方式" class="headerlink" title="3.label与input标签相互联系的两种方式"></a>3.label与input标签相互联系的两种方式</h2><p>&lt;label&gt; 标签为 input 元素定义标注（标记），当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。它可以通过for属性绑定到input元素，也可以直接把input元素直接放在&lt;label&gt;标签内部来绑定。</p>
+<hr>
+<h2 id="4-用CSS画三角形、圆形"><a href="#4-用CSS画三角形、圆形" class="headerlink" title="4.用CSS画三角形、圆形"></a>4.用CSS画三角形、圆形</h2><p>CSS画三角形利用的是border属性，通过设置对应边宽度为0，侧边颜色透明完成。<br>CSS画圆形利用的是border-radius属性，通过设置border-radius为高宽的2倍完成。<br><em>*</em> 5.calc函数<br>通过calc函数我们可以通过给元素的border、margin、pading、font-size和width等属性设置动态值，更方便地进行自适应布局。其运算规则如下</p>
+<blockquote>
+<p>1.使用“+”、“-”、“<em>” 和 “/”四则运算；<br>2.可以使用百分比、px、em、rem等单位；<br>3.可以混合使用各种单位进行计算；<br>4.表达式中有“+”和“-”时，其前后必须要有空格，如”widht: calc(12%+5em)”这种没有空格的写法是错误的；<br>5.表达式中有“</em>”和“/”时，其前后可以没有空格，但建议留有空格<br><strong><em> 6.ie6中margin为负值时不正常显示<br>设置zoom:1与position:relative，使元素hasLayout属性为true。关于hasLayout，详见<a href="http://baike.baidu.com/item/hasLayout。" target="_blank" rel="external">http://baike.baidu.com/item/hasLayout。</a>
+</em></strong> 7.ie6双边距bug<br>块级元素，浮动方向与margin方向一致时，边距变为两倍，设置display:inline解决;<br><em>*</em> 8.margin为负值的表现<br>margin在top与left方向设为负值时，拖动元素向该方向移动。bottom与right方向为负值时，后序元素移动，覆盖该元素的一部分。</p>
+</blockquote>
 
       
     </div>
